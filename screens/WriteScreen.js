@@ -53,8 +53,7 @@ submitStory = ()=>{
                title: text
              })
         
-        value={this.state.title}
-        />
+        value={this.state.title} />
         
         <TextInput
             placeholder="Author"
@@ -62,8 +61,8 @@ submitStory = ()=>{
            onChangeText = {(text)=>{
               this.setState
               author: text
-           })
-          })
+           }
+          }
           placeholderTextColor='black'
           value={this.state.author}
           style={styles.author} />
@@ -91,7 +90,7 @@ submitStory = ()=>{
    </View>
   );
   }
-        }
+}
 
 const styles = StyleSheet.create({
   container: {
